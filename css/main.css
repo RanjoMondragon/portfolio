@@ -110,6 +110,12 @@ header a {
   margin-right: 40px;
 }
 
+/* About section */
+
+#about p {
+  text-align: justify;
+}
+
 /* SKILLS SECTION  */
 ul {
   list-style: none;
