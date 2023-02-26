@@ -1,0 +1,243 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+}
+
+#about, #skills, #projects, #contact {
+  padding: 80px 50px;
+  text-align: center;
+  background: #EBEBEB;
+}
+
+/*navbar style*/
+.navbar {
+  background-color: #25A7F8;
+}
+.navbar a {
+  color: white;
+}
+
+/*header style*/
+#landing {
+  text-align: center;
+}
+
+#header{
+  height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.imgContainer {
+  flex: 0 0 40%;
+  padding: 0 46px;
+  display: flex;
+  width: 100%;
+  position: relative;
+}
+
+header .imgContainer img {
+  width: 350px;
+  height: 350px;
+  border-radius: 50%;
+  margin: 0 auto;
+  box-shadow: 12px 0 #067BC2, 24px 0 #25A7F8, 36px 0 #B0DFFD;
+}
+
+@media only screen and (max-width: 1024px) {
+  #header{
+  height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  align-self: flex-start;
+  justify-content: center;
+  padding-top: 80px;
+  }
+
+  .landingDescription {
+    align-self: center;
+  }
+}
+
+.landingDescription {
+  padding: 0 3%;
+}
+
+header .landingDescription h1 {
+  font-size: 250%;
+  letter-spacing: 2px;
+  margin: 25px 0;
+}
+
+header .landingDescription .socialsResume {
+  display: flex;
+  margin-top: 30px;
+}
+
+header .landingDescription .socialsResume .resumeLink {
+  background-color: #25A7F8;
+  padding: 15px 35px;
+  border-radius: 40px;
+  letter-spacing: 2px;
+  font-size: 100%;
+  font-weight: 300;
+  display: inline-block;
+}
+
+header a {
+  text-decoration: none;
+  color: white;
+}
+
+.socialsList {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 40px;
+}
+
+.socialsList a {
+  color: #25A7F8;
+  font-size: 100%;
+  padding: 10px;
+  background-color: white;
+  border: 1px solid #eee;
+  border-radius: 6px;
+  padding: 9px 15px;
+  box-shadow: 0px 4px 6px rgb(134 151 168 / 10%);
+  margin-right: 40px;
+}
+
+.skill {
+  border: 1px solid #eee;
+  border-radius: 15px;
+  box-shadow: 0px 4px 8px rgb(134 151 168 / 10%);
+  padding: 1rem 2rem 0;
+}
+
+.skillsGrid {
+  display: grid;
+  grid-auto-columns: 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-column-gap: 5%;
+
+}
+
+@media screen and (max-width: 991px) {
+  .skillsGrid {
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 2%;
+    grid-row-gap: 5%;
+  }
+}
+
+.sectionContainer {
+  background-color: white;
+  border-radius: 50px;
+  padding: 48px;
+}
+
+.icon {
+  font-size: 40px;
+}
+
+.sectionHead {
+  margin-bottom: 50px;
+  text-align: center; 
+}
+
+#projects h2 {
+  margin-bottom: 30px;
+}
+
+.project {
+  display: flex;
+  justify-content: center;
+  margin: 0 1% 30px 1%;
+  text-align: left;
+  float: left;
+  margin: 0 auto;
+  margin-bottom: 2%;
+}
+
+.project h3 {
+  margin-bottom: 10px;
+}
+
+.project p {
+  font-size: 16px;
+  line-height: 1.5;
+  color: #555;
+  margin-bottom: 10px;
+}
+
+.project a {
+  display: inline-block;
+}
+
+.project a:hover {
+  background-color: #73c2c9;
+}
+
+.projectImg {
+  width: 400px;
+  height: 300px;
+  object-fit: cover;
+}
+.projectContainer {
+  width: 90%;
+  margin: 0 auto;
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+  flex-wrap: wrap;
+  padding: 1% 0; 
+}
+
+.view {
+  align-self: flex-end;
+  bottom: 0;
+  left: 0;
+  padding: 1%;
+}
+
+#contactForm {
+  margin: 0 auto;
+}
+
+form {
+  display: block;
+  margin-top: 0em;
+}
+
+#contactForm input, #contactForm textarea {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+  background: #FFFFFF;
+  color: #000000;
+}
+
+.contactFormContainer {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#contactForm button {
+  display: block;
+  width: 100%;
+  background: #FFFFFF;
+  border-radius: 4px;
+  padding: 5px 10px;
+  border: none;
+  color: #7D83FF;
+  font-weight: 500;
+  box-shadow: 0 1px 3px rgb(0 0 0 / 12%), 0 1px 2px rgb(0 0 0 / 24%);
+}
