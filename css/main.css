@@ -146,14 +146,6 @@ div.skill img {
   grid-row-gap: 50px;
 }
 
-@media screen and (max-width: 991px) {
-  .skillsGrid {
-    grid-template-columns: 1fr 1fr;
-    grid-column-gap: 50px;
-    grid-row-gap: 50px;
-  }
-}
-
 /* Project section */
 
 .sectionContainer {
