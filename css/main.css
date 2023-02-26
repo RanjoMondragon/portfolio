@@ -110,37 +110,45 @@ header a {
   margin-right: 40px;
 }
 
+/* SKILLS SECTION  */
+ul {
+  list-style: none;
+}
+
 .skill {
   border: 1px solid #eee;
   border-radius: 15px;
   box-shadow: 0px 4px 8px rgb(134 151 168 / 10%);
-  padding: 1rem 2rem 0;
+  padding: 10px;
+  background: pink;
+}
+
+div.skill img {
+  height: 35px;
+  width: 35px;
 }
 
 .skillsGrid {
   display: grid;
-  grid-auto-columns: 1fr;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-column-gap: 5%;
-
+  grid-template-columns: repeat(auto-fill, minmax(80px, 1fr));
+  grid-column-gap: 50px;
+  grid-row-gap: 50px;
 }
 
 @media screen and (max-width: 991px) {
   .skillsGrid {
     grid-template-columns: 1fr 1fr;
-    grid-column-gap: 2%;
-    grid-row-gap: 5%;
+    grid-column-gap: 50px;
+    grid-row-gap: 50px;
   }
 }
+
+/* Project section */
 
 .sectionContainer {
   background-color: white;
   border-radius: 50px;
   padding: 48px;
-}
-
-.icon {
-  font-size: 40px;
 }
 
 .sectionHead {
