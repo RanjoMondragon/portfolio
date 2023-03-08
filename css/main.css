@@ -197,17 +197,11 @@ div.skill img {
   display: inline-block;
 }
 
-.projectInfo a:hover {
-  background-color: #73c2c9;
-}
-
 .projectImg {
   width: 100%;
   height: 300px;
   object-fit: contain;
 }
-
-
 
 .view {
   align-self: flex-end;
