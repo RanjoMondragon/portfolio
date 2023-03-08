@@ -10,6 +10,11 @@ html, body {
   background: #EBEBEB;
 }
 
+.sectionHead {
+  margin-bottom: 50px;
+  text-align: left; 
+}
+
 /*navbar style*/
 .navbar {
   background-color: #25A7F8;
@@ -167,11 +172,6 @@ div.skill img {
   transition: all 0.3s ease-in;
   border: 1px solid #eee;
   justify-content: space-around;
-}
-
-.sectionHead {
-  margin-bottom: 50px;
-  text-align: center; 
 }
 
 #projects h2 {
