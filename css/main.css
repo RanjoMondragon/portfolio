@@ -276,3 +276,59 @@ div.skill img {
   color: #82c690;
   background-color: #F3F9F4;
 }
+
+@media (max-width: 767px) {
+
+  #about, #skills, #projects, #contact {
+    padding: 10px 15px;
+  }
+
+  header .imgContainer img {
+    width: 250px;
+    height: 250px;
+  }
+  .sectionContainer {
+    background-color: transparent;
+    padding: 0;
+  }
+  .aboutContainer {
+    line-height: 1.3;
+    font-size: 1rem;
+  }
+  .projectContainer {
+    display: block;
+    padding: 0;
+  }
+  .projectContainer .projectImgContainer {
+    max-width: 500px;
+    margin: 0 auto;
+  }
+  .projectContainer .projectInfo {
+    margin-left: 0;
+    margin-top: 20px;
+    padding: 20px;
+  }
+  .projectContainer .projectInfo .view {
+    margin-top: 25px;
+  }
+  .skillsGrid {
+    row-gap: 15px;
+    column-gap: 15px;
+    padding-left: 0;
+  }
+  .contactTypes {
+    display: block;
+  }
+  .contactTypes .flexContainer {
+    max-width: 100%;
+  }
+  .contactTypes .flexContainer:first-child {
+    padding: 0;
+  }
+  .contactTypes .flexContainer:last-child {
+    padding: 0;
+  }
+  .contactTypes .flexContainer .typeBox:first-child {
+    margin-bottom: 15px;
+  }
+}
