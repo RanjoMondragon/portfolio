@@ -125,6 +125,12 @@ a.resumeLink{
   text-align: justify;
 }
 
+.education {
+  text-align: left;
+  font-size: 16px;
+  padding-bottom: 10px;
+}
+
 /* SKILLS SECTION  */
 ul.skillsGrid {
   list-style: none;
