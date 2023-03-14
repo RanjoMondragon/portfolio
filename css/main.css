@@ -343,4 +343,18 @@ div.skill img {
   .contactTypes .flexContainer .typeBox:first-child {
     margin-bottom: 15px;
   }
+
+  .aboutContainer .flexContainer .typeBox {
+    box-shadow: 0px 4px 8px rgba(134, 151, 168, 0.1);
+    transition: all 0.3s ease-in;
+    border: 1px solid #eee;
+    padding: 24px;
+    border-radius: 15px;
+    background-color: white;
+    margin-bottom: 10px;
+  }
+
+  .aboutContainer .flexContainer .typeBox p {
+    margin-bottom: 0;
+  }
 }
